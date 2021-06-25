@@ -1,4 +1,3 @@
-import {Html} from 'next/document'
 import Head from 'next/head';
 import 'tailwindcss/tailwind.css';
 
@@ -15,7 +14,7 @@ function RademacherSolutions({ Component, pageProps }) {
         <link rel="icon" href="/logo.svg" />
         <title>Rademacher Solutions</title>
       </Head>
-      <div data-theme="light" className="container subpixel-antialiased optimize-legibility text-gray-9 text-shadow-sm bg-white">
+      <div className="subpixel-antialiased bg-white optimize-legibility text-gray-9">
         <Component {...pageProps} />
       </div>
     </>

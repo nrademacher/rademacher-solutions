@@ -1,9 +1,8 @@
 const openColor = require('open-color');
 const daisyui = require('daisyui');
-const aspectRatio = require('@tailwindcss/aspect-ratio')
+const aspectRatio = require('@tailwindcss/aspect-ratio');
 const bootstrapGrid = require('tailwind-bootstrap-grid');
 const plugin = require('tailwindcss/plugin');
-
 
 module.exports = {
   mode: 'jit',
@@ -12,14 +11,20 @@ module.exports = {
   theme: {
     colors: openColor,
     fontFamily: {
-      body: "'IBM Plex Sans', sans-serif",
       sans: "'IBM Plex Sans', sans-serif",
       heading: "'PT Sans', sans-serif",
     },
+    screens: {
+      sm: '576px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
+      // xxl: '1400px',
+    },
     extend: {
-       animation: {
-         'spin-slow': 'spin 2s linear infinite',
-        },
+      animation: {
+        'spin-slow': 'spin 2.5s linear infinite',
+      },
       boxShadow: {
         card: 'rgba(0, 0, 0, 0.08) 0px 10px 24px 0px',
         business: `${openColor.blue[6]} 0px 10px 24px 0px`,
@@ -51,12 +56,19 @@ module.exports = {
         8: '8rem',
       },
       containerMaxWidths: {
+        sm: '540px',
+        md: '720px',
+        lg: '960px',
+        xl: '1140px',
+        // xxl: '1320px',
+      },
+      /* containerMaxWidths: {
         sm: '640px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',
         '2xl': '1536px',
-      },
+      }, */
     }),
     plugin(function ({ addUtilities }) {
       addUtilities(

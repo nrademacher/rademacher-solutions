@@ -2,6 +2,7 @@ import { NavBar } from '../components/NavBar';
 import { SolutionsContainer } from '../components/SolutionsContainer';
 import { ProductCard } from '../components/ProductCard';
 import { ProductFeature } from '../components/ProductFeature';
+import { Footer } from '../components/Footer';
 
 export default function BusinessSolutions() {
   return (
@@ -16,7 +17,7 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-    hasDemo
+          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
             An appealing, performant landing page
@@ -36,7 +37,7 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-    hasDemo
+          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
             An appealing, performant landing page
@@ -56,7 +57,7 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-    hasDemo
+          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
             An appealing, performant landing page
@@ -69,6 +70,7 @@ export default function BusinessSolutions() {
           </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
+      <Footer />
     </>
   );
 }
