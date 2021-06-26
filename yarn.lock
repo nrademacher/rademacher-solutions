@@ -2295,7 +2295,7 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-tailwind-bootstrap-grid@^4.0.0:
+tailwind-bootstrap-grid@latest:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/tailwind-bootstrap-grid/-/tailwind-bootstrap-grid-4.0.0.tgz#37481216682d623d2ab76317897c9a6a599da4f6"
   integrity sha512-NfmH7WszS3JMyArtp0JyZC9tBt85zNCtZM5womZRNVeo8iscX8akaLr25WfhA8Mo0JkY8ok0xlQ9ZcrWt4/Sjw==

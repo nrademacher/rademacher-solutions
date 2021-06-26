@@ -3,8 +3,8 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="grid place-items-center bg-gradient-to-br from-blue-5 via-grape-4 to-yellow-3 py-16">
-      <div className="container py-16 px-8 text-white rounded-lg glass">
-        <section className="row">
+      <div className="container flex flex-col px-8 text-white rounded-lg glass">
+        <section className="row py-16">
           <article className="mt-4 md:mt-0 sm:col-6 md:col-3 lg:col-2 md:order-2">
             <h4 className="mb-2 text-xs font-bold uppercase font-heading">
               Solutions
@@ -127,6 +127,9 @@ export function Footer() {
               </li>
             </ul>
           </article>
+        </section>
+        <section className="row pb-4">
+          <span className="text-xs">© 2021 Rademacher Solutions</span>
         </section>
       </div>
     </footer>
