@@ -38,11 +38,11 @@ export default function PersonalSolutions() {
           hoverShadow="hover:shadow-personal"
         >
           <ProductFeature iconColor="text-grape-6">
-Everything included in Hobbyist
-    </ProductFeature>
+            Everything included in Hobbyist
+          </ProductFeature>
           <ProductFeature iconColor="text-grape-6">
-Up to 12 additional pages
-    </ProductFeature>
+            Up to 12 additional pages
+          </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
       <Footer />
