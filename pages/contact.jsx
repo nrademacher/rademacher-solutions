@@ -38,6 +38,7 @@ export default function Contact() {
               name="name"
               placeholder="Name"
               className="input input-bordered"
+              required
             />
           </div>
           <div className="form-control">
@@ -49,6 +50,7 @@ export default function Contact() {
               name="email"
               placeholder="Email"
               className="input input-bordered"
+              required
             />
           </div>
           <div className="flex justify-around">
@@ -93,6 +95,7 @@ export default function Contact() {
               value={solutionPick}
               name="solution"
               onChange={handleSolutionPick}
+              required
             >
               <option value="default" disabled>
                 Choose a solution

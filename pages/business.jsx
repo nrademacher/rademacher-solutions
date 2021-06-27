@@ -20,13 +20,16 @@ export default function BusinessSolutions() {
           hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            A well-designed, performant landing page
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            Carefully designed showcase sections
+            About section to introduce your business
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            Showcase section for your products or services
+          </ProductFeature>
+          <ProductFeature iconColor="text-blue-6">
+            Contact section and form
           </ProductFeature>
         </ProductCard>
         <ProductCard
@@ -37,16 +40,15 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            Everything included in Basic
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            Carefully designed showcase sections
+            Up to six additional pages
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            Any desired sections for those pages
           </ProductFeature>
         </ProductCard>
         <ProductCard
@@ -57,16 +59,18 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            Everything included in Plus
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            Carefully designed showcase sections
+            Up to 12 additional pages
           </ProductFeature>
           <ProductFeature iconColor="text-blue-6">
-            An appealing, performant landing page
+            Customer authenication: registration and login
+          </ProductFeature>
+          <ProductFeature iconColor="text-blue-6">
+            Offer personalized content to signed-in customers
           </ProductFeature>
         </ProductCard>
       </SolutionsContainer>

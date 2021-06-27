@@ -19,13 +19,13 @@ export default function PersonalSolutions() {
           hoverShadow="hover:shadow-personal"
         >
           <ProductFeature iconColor="text-grape-6">
-            An appealing, performant landing page
+            A hand-crafted page for your content
           </ProductFeature>
           <ProductFeature iconColor="text-grape-6">
-            Carefully designed showcase sections
+            Any specific sections you require, including navigation
           </ProductFeature>
           <ProductFeature iconColor="text-grape-6">
-            An appealing, performant landing page
+            Contact form if desired
           </ProductFeature>
         </ProductCard>
         <ProductCard
@@ -38,14 +38,11 @@ export default function PersonalSolutions() {
           hoverShadow="hover:shadow-personal"
         >
           <ProductFeature iconColor="text-grape-6">
-            An appealing, performant landing page
-          </ProductFeature>
+Everything included in Hobbyist
+    </ProductFeature>
           <ProductFeature iconColor="text-grape-6">
-            Carefully designed showcase sections
-          </ProductFeature>
-          <ProductFeature iconColor="text-grape-6">
-            An appealing, performant landing page
-          </ProductFeature>
+Up to 12 additional pages
+    </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
       <Footer />
