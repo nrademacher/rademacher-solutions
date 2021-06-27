@@ -5,7 +5,7 @@ export default function FAQ() {
   return (
     <>
       <NavBar />
-      <main className="container">Coming Soon</main>
+      <main className="container mb-4">Coming Soon</main>
       <Footer />
     </>
   );

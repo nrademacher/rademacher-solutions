@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer';
 export default function WildcardSolution() {
   return (
     <>
-      <NavBar />
+      <NavBar solutionsPage />
       <SolutionsContainer selectionColors="selection:text-white selection:bg-yellow-6">
         <ProductCard
           tier="Wildcard"
@@ -30,7 +30,7 @@ export default function WildcardSolution() {
           </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
-      <Footer />
+      <Footer solutionsPage />
     </>
   );
 }

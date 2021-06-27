@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <>
       <NavBar />
-      <main className="container mt-8 mb-16">
+      <main className="container mt-8 mb-24">
         <h1 className="text-5xl font-heading font-bold text-center mb-8">
           Contact Us
         </h1>
@@ -53,10 +53,10 @@ export default function Contact() {
               required
             />
           </div>
-          <div className="flex justify-around">
+          <div className="flex flex-col md:flex-row justify-around">
             <div className="form-control">
               <label className="cursor-pointer label">
-                <span className="label-text mr-2">
+                <span className="label-text md:mr-2">
                   I'd like to book a solution
                 </span>
                 <div>
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
             <div className="form-control">
               <label className="cursor-pointer label">
-                <span className="label-text mr-2">Something else</span>
+                <span className="label-text md:mr-2">Something else</span>
                 <div>
                   <input
                     type="radio"
@@ -125,7 +125,7 @@ export default function Contact() {
           <div data-netlify-recaptcha="true"></div>
           <button
             onClick={() => console.log(checked, solutionPick)}
-            className="col-3 text-lg font-bold bg-gradient-to-tl hover:brightness-110 from-blue-6 via-grape-6 to-yellow-6 btn border-none"
+            className="col-6 md:col-3 text-lg font-bold bg-gradient-to-tl hover:brightness-110 from-blue-6 via-grape-6 to-yellow-6 btn border-none"
             type="submit"
           >
             Send

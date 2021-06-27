@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function ProductCard({
   tier,
   price,
@@ -39,7 +41,7 @@ export function ProductCard({
           <button
             className={`py-2 px-4 rounded ${bgColor} text-white ${hoverColor}`}
           >
-            {hasDemo ? 'Buy Now' : 'Get in Touch'}
+            <Link href="/contact">{hasDemo ? 'Buy Now' : 'Get in Touch'}</Link>
           </button>
         </div>
       </div>

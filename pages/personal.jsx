@@ -7,10 +7,10 @@ import { Footer } from '../components/Footer';
 export default function PersonalSolutions() {
   return (
     <>
-      <NavBar />
+      <NavBar solutionsPage />
       <SolutionsContainer selectionColors="selection:text-white selection:bg-grape-6">
         <ProductCard
-          tier="Basic"
+          tier="Hobbyist"
           price={49}
           textColor="text-grape-6"
           bgColor="bg-grape-6"
@@ -45,7 +45,7 @@ export default function PersonalSolutions() {
           </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
-      <Footer />
+      <Footer solutionsPage />
     </>
   );
 }

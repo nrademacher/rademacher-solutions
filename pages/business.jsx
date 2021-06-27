@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer';
 export default function BusinessSolutions() {
   return (
     <>
-      <NavBar />
+      <NavBar solutionsPage />
       <SolutionsContainer selectionColors="selection:text-white selection:bg-blue-6">
         <ProductCard
           tier="Basic"
@@ -73,7 +73,7 @@ export default function BusinessSolutions() {
           </ProductFeature>
         </ProductCard>
       </SolutionsContainer>
-      <Footer />
+      <Footer solutionsPage />
     </>
   );
 }

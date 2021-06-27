@@ -1,9 +1,15 @@
 import Link from 'next/link';
 import { MobileDropdown } from './MobileDropdown';
 
-export function NavBar() {
+export function NavBar({ solutionsPage }) {
   return (
-    <nav className="container-fluid flex justify-between items-center py-4 w-full md:px-8">
+    <nav
+      className={`${
+        solutionsPage ? 'container-fluid' : 'container'
+      } flex justify-between items-center py-4 w-full ${
+        solutionsPage && 'md:px-8'
+      }`}
+    >
       <ul className="flex items-center space-x-8 text-sm lg:space-x-16">
         <li className="flex items-center text-xl font-bold font-heading">
           <img

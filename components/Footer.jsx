@@ -1,9 +1,17 @@
 import Link from 'next/link';
 
-export function Footer() {
+export function Footer({ solutionsPage }) {
   return (
-    <footer className="grid place-items-center py-16 px-4 bg-gradient-to-br from-blue-5 via-grape-4 to-yellow-3 md:px-0">
-      <div className="container flex flex-col px-8 text-white rounded-lg glass">
+    <footer
+      className={`grid place-items-center py-16 px-4 bg-gradient-to-br from-blue-5 via-grape-4 to-yellow-3 ${
+        solutionsPage ? 'md:px-8' : 'md:px-0'
+      }`}
+    >
+      <div
+        className={`${
+          solutionsPage ? 'container-fluid' : 'container'
+        } flex flex-col px-8 text-white rounded-lg glass`}
+      >
         <section className="py-16 row">
           <article className="mt-4 md:mt-0 sm:col-6 md:col-3 lg:col-2 md:order-2">
             <h4 className="mb-2 text-xs font-bold uppercase font-heading">
