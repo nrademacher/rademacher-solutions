@@ -90,6 +90,7 @@ export default function Contact() {
             <select
               className="select select-bordered border-blue-2 w-full max-w-xs"
               value={solutionPick}
+              name="solution"
               onChange={handleSolutionPick}
             >
               <option value="default" disabled>
