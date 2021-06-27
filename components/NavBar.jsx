@@ -3,7 +3,7 @@ import { MobileDropdown } from './MobileDropdown';
 
 export function NavBar() {
   return (
-    <nav className="container-fluid flex justify-between items-center py-8 w-full md:px-8 h-[8vh]">
+    <nav className="container-fluid flex justify-between items-center py-4 w-full md:px-8">
       <ul className="flex items-center space-x-8 text-sm lg:space-x-16">
         <li className="flex items-center text-xl font-bold font-heading">
           <img

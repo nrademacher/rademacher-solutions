@@ -16,9 +16,11 @@ export function ProductCard({
       <div className="justify-between card-body">
         <div className="grid gap-8 place-items-center">
           <h2 className="text-5xl font-bold font-heading">{tier}</h2>
-          <h3 className="text-4xl font-bold text-gray-7 font-heading">
-            ${price}
-          </h3>
+          {price && (
+            <h3 className="text-4xl font-bold text-gray-7 font-heading">
+              ${price}
+            </h3>
+          )}
         </div>
         <div className="text-left w-full">
           <h4 className="font-heading text-lg font-bold mb-4">What you get:</h4>
@@ -37,7 +39,7 @@ export function ProductCard({
           <button
             className={`py-2 px-4 rounded ${bgColor} text-white ${hoverColor}`}
           >
-    {hasDemo ? 'Buy Now' : 'Get in Touch'}
+            {hasDemo ? 'Buy Now' : 'Get in Touch'}
           </button>
         </div>
       </div>
