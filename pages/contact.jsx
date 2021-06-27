@@ -27,6 +27,7 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form-control">
@@ -89,7 +90,7 @@ export default function Contact() {
           </div>
           {checked === 'solution' && (
             <select
-              className="select select-bordered border-blue-2 w-full max-w-xs"
+              className="select select-bordered w-full max-w-xs"
               value={solutionPick}
               name="solution"
               onChange={handleSolutionPick}
@@ -119,6 +120,7 @@ export default function Contact() {
               placeholder="Message"
             ></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button
             onClick={() => console.log(checked, solutionPick)}
             className="col-3 text-lg font-bold bg-gradient-to-tl hover:brightness-110 from-blue-6 via-grape-6 to-yellow-6 btn border-none"
