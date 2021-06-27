@@ -17,7 +17,6 @@ export default function BusinessSolutions() {
           borderColor="border-blue-6"
           hoverColor="hover:bg-blue-5"
           hoverShadow="hover:shadow-business"
-          hasDemo
         >
           <ProductFeature iconColor="text-blue-6">
             A well-designed, performant landing page
