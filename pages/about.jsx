@@ -17,7 +17,7 @@ export default function About() {
             </p>
             <p>
               I created Rademacher Solutions to combine two passions of mine:
-              Building express, unique, and high-quality web-based experiences
+              Building expressive, unique, and high-quality web-based experiences
               and making them available to as many people as possible.
             </p>
             <p>
