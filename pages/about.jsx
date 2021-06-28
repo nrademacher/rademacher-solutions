@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <NavBar />
-      <main className="container mb-4">Coming Soon</main>
+      <main className="container mb-8">Coming Soon</main>
       <Footer />
     </>
   );
