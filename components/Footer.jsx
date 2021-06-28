@@ -33,7 +33,7 @@ export function Footer() {
                 <Link href="/about">About</Link>
               </li>
               <li className="hover:underline">
-                <Link href="/wildcard">Wildcard</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </article>
