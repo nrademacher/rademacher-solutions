@@ -7,7 +7,7 @@ export default function FAQ() {
     <>
       <NavBar />
       <main className="container mt-8 mb-24 md:text-lg">
-        <header className="font-heading text-center mb-8 md:mb-16">
+        <header className="font-heading text-center mb-16">
           <h1 className="text-5xl font-bold">Frequently Asked Questions</h1>
         </header>
         <section className="space-y-4 md:space-y-8 leading-relaxed">
@@ -77,16 +77,16 @@ export default function FAQ() {
             </h2>
             <div className="space-y-2">
               <p>
-                <span className="font-bold">A:</span> Rademacher Solutions
-                offers 30 days of full technical support for every product we
-                deliver, free of charge.
+                <span className="font-bold">A:</span> Rademacher Solutions offer
+                30 days of full technical support for every product we deliver,
+                free of charge.
               </p>{' '}
               <p>
                 By full support we mean that during that period we will, during
                 regular business hours, fully attend to answering any technical
-                questions or fixing any issues you have regarding the product
-                you purchased, and do so in a timely manner (usually within one
-                business day).
+                questions you may have or fixing any technical issue you may
+                experience regarding the product you purchased, and do so in a
+                timely manner (usually within one business day).
               </p>
               <p>
                 During the 30 days of full support, your optimal satisfication
