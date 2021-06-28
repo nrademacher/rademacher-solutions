@@ -1,5 +1,5 @@
 # WIP
 
-Website for Rademacher Solution (web solutions firm)
+Website for Rademacher Solution (web presence solutions business)
 
 Built with NextJS and TailwindCSS
