@@ -218,7 +218,7 @@ export default function Home() {
               <div className="pt-6 text-grape-6">
                 <Link href="/business">
                   <div className="flex items-center w-max text-sm border-b-2 border-white cursor-pointer md:text-base hover:border-grape-6">
-                    <span>View business solutions and pricing</span>
+                    <span>View personal solutions and pricing</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="ml-1 w-4 h-4"
