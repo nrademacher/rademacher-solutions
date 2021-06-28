@@ -17,12 +17,12 @@ export default function About() {
             </p>
             <p>
               I created Rademacher Solutions to combine two passions of mine:
-              Building expressive, high-quality web solutions and making them
-              available to as many people as possible
+              Building express, unique, and high-quality web-based experiences
+              and making them available to as many people as possible.
             </p>
             <p>
-              That is why I've made it my mission to offer exclusive web
-              products at inclusive prices.
+              That is why I made it my mission to offer exclusive web products
+              at inclusive prices.
             </p>
           </article>
           <img
