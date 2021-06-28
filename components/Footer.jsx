@@ -27,13 +27,13 @@ export function Footer() {
             </h4>
             <ul className="flex flex-col space-y-2 text-sm">
               <li className="hover:underline">
+                <Link href="/contact">Contact</Link>
+              </li>
+              <li className="hover:underline">
                 <Link href="/faq">FAQ</Link>
               </li>
               <li className="hover:underline">
                 <Link href="/about">About</Link>
-              </li>
-              <li className="hover:underline">
-                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </article>

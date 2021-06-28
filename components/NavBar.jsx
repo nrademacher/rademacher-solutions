@@ -30,13 +30,13 @@ export function NavBar() {
       </ul>
       <ul className="hidden items-baseline space-x-8 text-xs text-gray-7 lg:flex">
         <li className="hover:text-gray-9">
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li className="hover:text-gray-9">
           <Link href="/faq">FAQ</Link>
         </li>
         <li className="hover:text-gray-9">
           <Link href="/about">About</Link>
-        </li>
-        <li className="hover:text-gray-9">
-          <Link href="/contact">Contact</Link>
         </li>
       </ul>
       <MobileDropdown />
